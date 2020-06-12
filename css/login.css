@@ -1,0 +1,149 @@
+    #container ul{
+		list-style: none;
+		}
+		#container ul li{
+		background-color: #3B4A7B;
+		width:100px;
+		border: 1px solid white;
+		border-radius:4px;
+		height: 50px;
+		width:150px;
+		line-height: 50px;
+		text-align: center;
+		float:left;
+		font-size: 18px;
+		position:relative;
+		opacity:.8; 
+		z-index: 999;
+		}
+		
+		#container ul li a:hover{
+		background-color: #3B8236;
+	
+	}
+	#container ul li:hover>ul{
+	display:block;
+	}
+	#container ul ul{
+	postion:absolute;
+	display:none;
+	}
+#container ul ul{
+margin:0px;
+padding:0px;
+}
+	#container ul li a{
+	text-decoration:none;
+	color:white;
+	display:block;
+	
+	}
+	#verticalmenu ul{
+		  list-style:none;
+		  }
+		  #verticalmenu ul li {
+		  background-color:#3B4A7B;
+opacity:.9; 		  
+		  border: 1px solid white;
+		  border-radius:4px;
+		  
+		  width:180px;
+		  height:50px;
+		  text-align:center;
+		  line-height:50px;
+		  }
+		  
+		  
+		  #verticalmenu ul li a{
+               text-decoration:none;
+                      color:white; 
+					  display:block;
+ }			   
+
+
+
+ #verticalmenu ul li a:hover{
+   background-color:#3B8236;
+   }	
+   #verticalmenuright ul{
+		  list-style:none;
+		  }
+		  #verticalmenuright ul li {
+		  background-color:#3B4A7B; 
+		  opacity:.9; 
+		  border: 1px solid white;
+		  border-radius:4px;
+		  width:180px;
+		  height:50px;
+		  text-align:center;
+		  line-height:50px;
+		  }
+
+		 
+		  
+		  #verticalmenuright ul li a{
+               text-decoration:none;
+                      color:white; 
+					  display:block;
+ }			   
+ #verticalmenuright ul li a:hover{
+   background-color:#3B8236;
+   }	
+   #lastpara {
+   margin-left: 1cm;
+   }
+	
+	     	 
+	
+	#slider{
+	   height:450px;
+	   width:650px;
+	   margin:20px auto;
+	    position:relative;
+	   }
+	   #img{
+	    height:450px;
+	   width:650px; 
+	    position:absolute;   
+		}
+	   #leftholder{
+	   height:450px;
+	   width:100px; 
+	   position:absolute;
+	   left:0px;
+	   top:0px;
+	   
+	   }
+	   #rightholder{
+	   height:450px;
+	   width:100px; 
+	   position:absolute;
+	   right:0px;
+	   top:0px;
+	   }
+	   .left{
+	   height:50px;
+	   width:50px;
+	   position:absolute;
+	   top:40%;
+	   left:0px;
+	   }
+	   .right{
+	   height:50px;
+	   width:50px;
+	   position:absolute;
+	   top:40%;
+	   right:0px;
+	   }
+	
+	
+	#heading table
+	{
+		position:relative;
+		margin:10px;
+		background-color:white;
+	}
+ body
+ {
+	 background-color:lightgrey;
+ }
